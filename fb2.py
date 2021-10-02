@@ -23,7 +23,8 @@ except:
 	print('\n\tPlease install mechanize.\n')
 	sys.exit()
 
-print('\n---------- Welcome To Facebook BruteForce ----------\n')
+print('\n---------------------- WelCome To  ----------------\n')
+print('\n---------- Ed.Rupesh BruteForece Password Cracker ----------\n')
 file=open('CodeBreaker.txt','r')
 
 email=str(raw_input('Enter Email/Username : ').strip())
