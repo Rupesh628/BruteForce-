@@ -1,4 +1,4 @@
-rt sys
+Brt sys
 
 if sys.version_info[0] !=2: 
 	print('''--------------------------------------
@@ -24,7 +24,7 @@ except:
 	sys.exit()
 
 print('\n---------- Welcome To Facebook BruteForce ----------\n')
-file=open('passwords.txt','r')
+file=open('CodeBreaker.txt','r')
 
 email=str(raw_input('Enter Email/Username : ').strip())
 
