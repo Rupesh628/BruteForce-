@@ -46,7 +46,8 @@ def is_this_a_password(email, index, password):
 
 
 if __name__ == "__main__":
-    print('\n---------- Welcome To Facebook BruteForce ----------\n')
+print('\n---------------------- Welcome To -------------------------\n')  
+print('\n---------- Ed.Rupesh BruteForce Password Cracker ----------\n')
     if not os.path.isfile(PASSWORD_FILE):
         print("Password file is not exist: ", PASSWORD_FILE)
         sys.exit(0)
